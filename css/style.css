@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Nothing+You+Could+Do&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --frame-color: #846d19;
+  --frame-thickness: 10px;
+  --section-bg: #1c1c1f;
 }
 
 html,
@@ -58,7 +65,7 @@ img {
 }
 
 #star-banner img {
-  border: 10px #846d19 solid;
+  border: var(--frame-thickness) var(--frame-color) solid;
   -webkit-box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
   -moz-box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
   box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
@@ -67,7 +74,7 @@ img {
 }
 
 main {
-  background-color: #1c1c1f;
+  background-color: var(--section-bg);
   min-height: 100vh;
   font-family: "National Park", sans-serif;
   color: whitesmoke;
@@ -116,7 +123,7 @@ main h2 {
   grid-column-start: 1;
   grid-column-end: 2;
 
-  border: 10px #846d19 solid;
+  border: var(--frame-thickness) var(--frame-color) solid;
   -webkit-box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.2);
@@ -162,6 +169,48 @@ a::after {
 
 a:hover::after {
   transform: scaleX(1); /* Animate underline in */
+}
+
+footer {
+  /*   width: 100%; */
+  /*   min-height: 10vh; */
+  background: #0b0817;
+  /*   /* border-top: 3px #111 solid; */
+}
+
+.cosmic-footer {
+  background: #0b0817;
+  /* background: linear-gradient(to right, #1a1a2e, #16213e); */
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid rgba(132, 109, 25, 0.3); /* Gold accent */
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-family: "National Park", sans-serif;
+  color: whitesmoke;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  margin-bottom: 0.5rem;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.twinkle-effect {
+  animation: twinkle 4s infinite;
 }
 
 .text-italic {

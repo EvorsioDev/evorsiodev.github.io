@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256mm"
+   height="256mm"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="dimagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.80176768"
+     inkscape:cx="313.68189"
+     inkscape:cy="430.92283"
+     inkscape:window-width="1916"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient75"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00ead7;stop-opacity:1;"
+         offset="0.19023477"
+         id="stop75" />
+      <stop
+         style="stop-color:#fffd00;stop-opacity:1;"
+         offset="1"
+         id="stop76" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient75"
+       id="linearGradient76"
+       x1="13.944458"
+       y1="74.182571"
+       x2="238.17557"
+       y2="183.54739"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath77">
+      <g
+         inkscape:label="Clip"
+         id="use77" />
+    </clipPath>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask88">
+      <g
+         id="g92">
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#06b0a4;stroke-width:6.53203;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 38.279998,73.92 -1.979999,35.64 71.610001,-2.64 98.01,7.92 4.29,-40.26 -4.29,40.26 -97.35,-7.59 0.99,60.72 -50.490002,-6.93 -0.66,31.02 0.66,-30.03 50.160002,6.27 22.44,23.76 60.72,-0.33 -59.73,1.32 -22.77,-24.42 -0.99,-61.05 -72.600001,1.32 z"
+           id="path88" />
+        <rect
+           style="fill:#00b9a6;fill-opacity:1;fill-rule:nonzero;stroke-width:5.71299;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:22.0014;paint-order:markers stroke fill"
+           id="rect88"
+           width="44.746655"
+           height="44.634987"
+           x="-67.479111"
+           y="67.787506"
+           transform="matrix(0.86467035,-0.5023397,0.86429445,0.50298616,0,0)" />
+        <rect
+           style="fill:#00b9a6;fill-opacity:1;fill-rule:nonzero;stroke-width:6.91891;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:22.0014;paint-order:markers stroke fill"
+           id="rect89"
+           width="54.192383"
+           height="54.05637"
+           x="11.68996"
+           y="171.75191"
+           transform="matrix(0.86946624,-0.49399234,0.86910072,0.49463514,0,0)" />
+        <rect
+           style="fill:#00b9a6;fill-opacity:1;fill-rule:nonzero;stroke-width:5.88115;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:22.0014;paint-order:markers stroke fill"
+           id="rect90"
+           width="46.065578"
+           height="45.947086"
+           x="-200.07198"
+           y="218.66759"
+           transform="matrix(0.89013303,-0.45570078,0.88981455,0.45632234,0,0)" />
+        <rect
+           style="fill:#00b9a6;fill-opacity:1;fill-rule:nonzero;stroke-width:5.88119;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;paint-order:markers stroke fill"
+           id="rect91"
+           width="46.065578"
+           height="45.947086"
+           x="-95.593559"
+           y="161.39008"
+           transform="matrix(0.89013303,-0.45570078,0.88981455,0.45632234,0,0)" />
+        <rect
+           style="fill:#00b9a6;fill-opacity:1;fill-rule:nonzero;stroke-width:5.71286;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:22.0014;paint-order:markers stroke fill"
+           id="rect92"
+           width="44.746925"
+           height="44.632778"
+           x="-117.57929"
+           y="287.37137"
+           transform="matrix(0.88312916,-0.46912989,0.88279431,0.46975973,0,0)" />
+        <circle
+           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;stroke-opacity:1;paint-order:markers stroke fill"
+           id="circle92"
+           cx="82.079185"
+           cy="115.6809"
+           r="2.0417707" />
+        <ellipse
+           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;stroke-opacity:1;paint-order:markers stroke fill"
+           id="ellipse92"
+           cx="111.8307"
+           cy="115.56423"
+           rx="1.6917529"
+           ry="1.5750804" />
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 82.837559,127.28983 3.500178,-1.16673 3.616851,2.33345 4.666904,-1.63341 2.566799,2.56679 5.366939,-2.56679 3.96687,1.98343 4.6669,-1.63342"
+           id="path92" />
+      </g>
+    </mask>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#151515;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect51"
+       width="283.47"
+       height="272.57999"
+       x="-22.109999"
+       y="-12.87" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient76);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.53203315;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect74"
+       width="249.48001"
+       height="167.31"
+       x="1.319999"
+       y="45.209999"
+       mask="url(#mask88)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:35.2777px;line-height:0;font-family:Tektur;-inkscape-font-specification:'Tektur, Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#00b89e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00012;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:22.0014;stroke-opacity:1;paint-order:markers stroke fill"
+       x="128.7"
+       y="244.53"
+       id="text51"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         style="stroke-width:1.00012;fill:#00b89e;fill-opacity:1"
+         x="128.7"
+         y="244.53">Dimagram</tspan></text>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
