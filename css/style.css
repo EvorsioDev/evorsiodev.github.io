@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
 img {
   display: inline-block;
 }
@@ -26,6 +32,12 @@ img {
   background-size: cover; /* or 'contain' depending on your needs */
   background-repeat: no-repeat;
   background-position: center center; /* optional - centers the image */
+
+  color: whitesmoke;
+  font-size: clamp(12pt, 5vw, 24pt);
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #star-banner > .banner-wrapper {
@@ -41,7 +53,7 @@ img {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 100pt;
+  font-size: clamp(36pt, 10vw, 100pt);
   color: whitesmoke;
 }
 
@@ -50,14 +62,8 @@ img {
   -webkit-box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
   -moz-box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
   box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
-}
-
-#star-banner {
-  color: whitesmoke;
-  font-size: 24pt;
-  font-family: "Nothing You Could Do", cursive;
-  font-weight: 400;
-  font-style: normal;
+  aspect-ratio: 1 / 1;
+  width: clamp(128px, min(50vh, 50vw), 256px);
 }
 
 main {
@@ -65,7 +71,8 @@ main {
   min-height: 100vh;
   font-family: "National Park", sans-serif;
   color: whitesmoke;
-  font-size: 18pt;
+  /* font-size: 18pt; */
+  font-size: 1.5rem;
 }
 
 main h2 {
@@ -73,7 +80,7 @@ main h2 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 48pt;
+  font-size: clamp(24pt, 5vw, 48pt);
   color: whitesmoke;
   text-align: center;
 }
@@ -84,24 +91,24 @@ main h2 {
 
 #project-list {
   padding: 1rem;
-    list-style: none;
+  list-style: none;
 }
 
-#project-list > li{
-    margin-top: 1rem;
+#project-list > li {
+  margin-top: 1rem;
 }
 
 .project-card {
   display: grid;
-  grid-template-columns: 256px 1fr;
-  grid-template-rows: 50pt 1fr;
+  grid-template-columns: clamp(128px, 30vw, 256px) 1fr;
+  grid-template-rows: clamp(25pt, 5vw, 50pt) 1fr;
 }
 
 .project-card-icon {
   aspect-ratio: 1 / 1;
   width: 100%;
   /* height: 100%; */
-  width: clamp(128px, 40vw, 256px);
+  /* width: clamp(128px, 40vw, 256px); */
   object-fit: cover;
   grid-row-start: 1;
   grid-row-end: 3;
@@ -116,12 +123,13 @@ main h2 {
 }
 
 .project-card h3 {
-  font-size: 48pt;
-  text-align: center;
+  font-size: clamp(18pt, 5vw, 36pt);
+  text-align: left;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  padding-left: 1rem;
 }
 .project-card-desc {
   grid-column-start: 2;
@@ -137,6 +145,23 @@ a {
   background: linear-gradient(to right, #fc032c, #61b8ff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust distance from text */
+  width: 100%;
+  height: 1px; /* Underline thickness */
+  background: linear-gradient(to right, #fc032c, #61b8ff);
+  transform: scaleX(0); /* Start with no underline */
+  transition: transform 0.3s ease;
+}
+
+a:hover::after {
+  transform: scaleX(1); /* Animate underline in */
 }
 
 .text-italic {
