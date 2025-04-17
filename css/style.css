@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Nothing+You+Could+Do&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: inline-block;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#star-banner {
+  background-image: url("../assets/cosmos.svg");
+  background-size: cover; /* or 'contain' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center; /* optional - centers the image */
+}
+
+#star-banner > .banner-wrapper {
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#star-banner h1 {
+  font-family: "National Park", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100pt;
+  color: whitesmoke;
+}
+
+#star-banner img {
+  border: 10px #846d19 solid;
+  -webkit-box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
+  -moz-box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
+  box-shadow: 0px 0px 18px 5px rgba(212, 212, 212, 0.2);
+}
+
+#star-banner {
+  color: whitesmoke;
+  font-size: 24pt;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  background-color: #1c1c1f;
+  min-height: 100vh;
+  font-family: "National Park", sans-serif;
+  color: whitesmoke;
+  font-size: 18pt;
+}
+
+main h2 {
+  font-family: "National Park", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48pt;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.studio-description {
+  padding: 1rem;
+}
+
+#project-list {
+  padding: 1rem;
+    list-style: none;
+}
+
+#project-list > li{
+    margin-top: 1rem;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  grid-template-rows: 50pt 1fr;
+}
+
+.project-card-icon {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  /* height: 100%; */
+  width: clamp(128px, 40vw, 256px);
+  object-fit: cover;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  border: 10px #846d19 solid;
+  -webkit-box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  font-size: 48pt;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.project-card-desc {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 1rem;
+}
+
+a {
+  /* text-decoration: underline; */
+  background: linear-gradient(to right, #fc032c, #61b8ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-italic {
+  font-style: italic;
+}
